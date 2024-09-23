@@ -33,4 +33,15 @@
     color: black;
 }
 
-
+@media screen and (max-width: 510px)
+{
+    .section .logo
+    {
+        font-size: 25px;
+        margin-top: -200px;
+    }
+    .section .link
+    {
+        margin-top: 20px;
+    }
+}

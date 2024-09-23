@@ -47,3 +47,23 @@
 {
     transform: scale(1);
 }
+
+@media screen and (max-width: 460px)
+{
+    .header
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        
+    }
+    .header .logo
+    {
+        font-size: 20px;
+    }
+    .header .link_container
+    {
+        width: 100%;
+        font-size: 14px;
+    }
+}

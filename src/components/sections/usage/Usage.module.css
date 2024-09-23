@@ -34,3 +34,33 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 1060px)
+{
+    .section
+    {
+        height: auto ;
+    }
+    .section .game_info_content
+    {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 525px) {
+    .section .usage_section
+    {
+        width: 80%;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section .usage_section ul span
+    {
+        font-size: 12px;
+    }
+}

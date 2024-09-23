@@ -7,10 +7,10 @@ export default function Lore() {
         <>
             <section id='lore' className={styles.section}>
                 <Title 
-                    message={"Lore: The Maze Awaits"}
-                    fontsize={"30px"}
+                    message={"The Maze Awaits"}
+                    fontsize={"2rem"}
                     decWidth={"100px"}
-                    paddingB={"30px"}
+                    paddingB={"0"}
                 />
                 <div className={styles.lore_text}>
                     In a world where time is your greatest enemy, Maze: The Renewals challenges you to navigate a labyrinth.
