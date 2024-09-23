@@ -29,7 +29,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className={styles.profile_container}>
-                        <img src="/public/images/teams.png" alt="Picture" />
+                        <img src="/The-maze-landing-Page/images/teams.png" alt="Picture" />
                     </div>
 
                 </div>

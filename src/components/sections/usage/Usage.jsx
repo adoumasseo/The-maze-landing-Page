@@ -14,7 +14,7 @@ export default function Usage() {
                 />
                 <div className={styles.game_info_content}>
                     <ReactPlayer
-                        url='/public/videos/ray.webm'
+                        url='/The-maze-landing-Page/videos/ray.webm'
                         height="350px"
                         width="600px"
                         loop={true}
