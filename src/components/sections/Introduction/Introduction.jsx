@@ -9,7 +9,7 @@ export default function Introduction() {
                 <Header/>
                 <div>
                     <div className= {styles.logo}>Maze: The Renewals</div>
-                    <a href="" className= {styles.link}>Try it</a>
+                    <a href="https://github.com/adoumasseo" className= {styles.link}>Try it</a>
                 </div>
                 
             </section>
