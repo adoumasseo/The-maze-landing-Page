@@ -1,0 +1,36 @@
+.section
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section .usage_section
+{
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+}
+.section .usage_section .explain_text
+{
+    text-align: justify;
+    padding: 15px 0px;
+}
+.section .usage_section ul
+{
+    list-style: none;
+}
+.section .usage_section ul span
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+.section  .game_info_content
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

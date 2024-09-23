@@ -1,0 +1,29 @@
+.section
+{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.section .content
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section .content .icon,
+.section .content .icon:visited
+{
+    color: var(--link-text-color);
+    transition: 0.2s;
+}
+
+.section .content .icon:hover
+{
+    color: var(--secondary-color);
+}

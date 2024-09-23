@@ -1,0 +1,15 @@
+.section
+{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+.section .lore_text
+{
+    width: 70%;
+    text-align: justify;
+}

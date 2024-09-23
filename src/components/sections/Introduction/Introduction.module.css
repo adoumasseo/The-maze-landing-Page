@@ -1,0 +1,36 @@
+.section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/public/images/maze4.jpg);
+}
+.section .logo
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--base-text-color);
+}
+.section .link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    color: var(--base-text-color);
+    text-decoration: none;
+    border: 1px solid var(--base-text-color);
+    border-radius: var(--link-border-radius);
+    transition: 0.5s;
+}
+
+.section .link:hover
+{
+    background-color: var(--base-text-color);
+    color: black;
+}
+
+
